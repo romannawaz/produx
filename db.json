@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "7ff9cf88-ebb2-4073-bed7-21abdc9db5db",
+      "title": "Awesome title",
+      "description": "Great description",
+      "views": 0,
+      "createdAt": "Thu Jul 27 2023 14:48:52 GMT+0300 (Eastern European Summer Time)",
+      "updatedAt": "Thu Jul 27 2023 14:48:52 GMT+0300 (Eastern European Summer Time)"
+    },
+    {
+      "id": "d2587cde-664d-474a-aa95-78793d3ccbe3",
+      "title": "Awesome title",
+      "description": "Great description",
+      "views": 0,
+      "createdAt": "Thu Jul 27 2023 14:58:54 GMT+0300 (Eastern European Summer Time)",
+      "updatedAt": "Thu Jul 27 2023 14:58:54 GMT+0300 (Eastern European Summer Time)"
+    },
+    {
+      "id": "19b86c94-d0ae-48b5-910c-c1b40dd300c0",
+      "title": "Awesome title",
+      "description": "Great description",
+      "views": 0,
+      "createdAt": "Thu Jul 27 2023 15:00:52 GMT+0300 (Eastern European Summer Time)",
+      "updatedAt": "Thu Jul 27 2023 15:00:52 GMT+0300 (Eastern European Summer Time)"
+    }
+  ]
+}
