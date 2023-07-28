@@ -1,0 +1,15 @@
+header.header {
+  display: flex;
+  align-items: center;
+
+  padding: 25px;
+
+  color: #e4e4e4;
+  background-color: rgb(21, 21, 21);
+
+  box-shadow: 0 4px 56px rgb(0 0 0 / 12%);
+
+  .settings {
+    margin-left: auto;
+  }
+}
