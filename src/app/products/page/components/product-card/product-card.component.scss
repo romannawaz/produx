@@ -3,6 +3,7 @@
     padding: 20px;
 
     background-color: rgb(84, 84, 84);
+    border-radius: 3px;
     border: 1px solid black;
   }
 
@@ -35,13 +36,20 @@
     text-overflow: ellipsis;
   }
 
-  &__remove_btn {
+  &__settings {
     cursor: pointer;
     margin-left: auto;
 
-    font-size: 1.3rem;
-    overflow: hidden;
-    border-radius: 50%;
+    font-size: 1.2rem;
+
+    &_btn {
+      overflow: hidden;
+      border-radius: 50%;
+
+      &:not(:last-of-type) {
+        margin-right: 10px;
+      }
+    }
   }
 }
 

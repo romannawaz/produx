@@ -9,9 +9,14 @@
       <fa-icon [icon]="faEye" class="icon"></fa-icon>
       {{ product.views }}
     </span>
-    <span class="product__remove_btn" (click)="remove()">
-      <fa-icon [icon]="faCircleXmark"></fa-icon>
-    </span>
+    <div class="product__settings">
+      <span class="product__settings_btn" (click)="edit()">
+        <fa-icon [icon]="faEdit"></fa-icon>
+      </span>
+      <span class="product__settings_btn" (click)="remove()">
+        <fa-icon [icon]="faCircleXmark"></fa-icon>
+      </span>
+    </div>
   </div>
   <div class="product__title">{{ product.title }}</div>
   <div class="product__description">{{ product.description }}</div>
